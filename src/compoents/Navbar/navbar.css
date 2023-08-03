@@ -1,0 +1,33 @@
+:root{
+    --primary-white:#000;
+}
+
+.img{
+    width: 9rem;
+    mix-blend-mode: multiply;
+}
+
+.nav-link{
+     text-transform: uppercase;
+     
+     cursor: pointer;
+     color: var(--primary-white);
+     margin-left: 0.75rem ;
+     margin-right: 0.75rem;
+
+
+}
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 5rem !important ;
+}
+
+.navbar-nav .nav-link.active {
+    border-top: 0.1875rem solid blue!important;
+    color: orangered ;
+}
+
+.my-nav .navbar-nav li.nav-item a:hover {
+    color: orangered;
+}
